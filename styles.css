@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(235, 234, 234);   
+    font-family: 'Coming Soon';
+}
+
+.caja{
+    background-color: #026fc2;
+    color: rgb(236, 236, 236);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #02223b;
+    text-align: center;
+    max-width: 400px;
+    width: 70%
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(235, 234, 234);
+    color: #0066b2;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #004a80;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #bebebe;
+}
+
+a {
+    color: #ffffff;
+}
